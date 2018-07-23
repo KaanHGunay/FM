@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataBase
 {
-    class Footballer
+    class Manager
     {
         [Key]
         public int ID { get; set; }

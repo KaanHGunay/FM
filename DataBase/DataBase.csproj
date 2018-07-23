@@ -47,12 +47,51 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="City.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="Continent.cs" />
+    <Compile Include="Country.cs" />
     <Compile Include="Footballer.cs" />
+    <Compile Include="League.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="Migrations\201807231803161_FirstStep.cs" />
+    <Compile Include="Migrations\201807231803161_FirstStep.Designer.cs">
+      <DependentUpon>201807231803161_FirstStep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807231807462_addingCitiesTable.cs" />
+    <Compile Include="Migrations\201807231807462_addingCitiesTable.Designer.cs">
+      <DependentUpon>201807231807462_addingCitiesTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807231816459_addingLeagueTeamStadiumTables.cs" />
+    <Compile Include="Migrations\201807231816459_addingLeagueTeamStadiumTables.Designer.cs">
+      <DependentUpon>201807231816459_addingLeagueTeamStadiumTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807231833321_addingFootballersAndManagersTables.cs" />
+    <Compile Include="Migrations\201807231833321_addingFootballersAndManagersTables.Designer.cs">
+      <DependentUpon>201807231833321_addingFootballersAndManagersTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stadium.cs" />
+    <Compile Include="Team.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201807231803161_FirstStep.resx">
+      <DependentUpon>201807231803161_FirstStep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807231807462_addingCitiesTable.resx">
+      <DependentUpon>201807231807462_addingCitiesTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807231816459_addingLeagueTeamStadiumTables.resx">
+      <DependentUpon>201807231816459_addingLeagueTeamStadiumTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807231833321_addingFootballersAndManagersTables.resx">
+      <DependentUpon>201807231833321_addingFootballersAndManagersTables.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
