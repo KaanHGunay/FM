@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataBase
 {
@@ -17,5 +13,6 @@ namespace DataBase
 
         public Country Country { get; set; }
         public Team Team { get; set; }
+        public Position Position { get; set; }
     }
 }

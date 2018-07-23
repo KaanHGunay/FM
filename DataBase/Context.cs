@@ -12,6 +12,8 @@ namespace DataBase
         public DbSet<Stadium> Stadiums { get; set; }
         public DbSet<Footballer> Footballers { get; set; }
         public DbSet<Manager> Managers { get; set; }
+        public DbSet<Position> Positions { get; set; }
+        public DbSet<SupporterGroup> SupporterGroups { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

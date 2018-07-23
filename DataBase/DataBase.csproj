@@ -71,8 +71,10 @@
       <DependentUpon>201807231833321_addingFootballersAndManagersTables.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Position.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stadium.cs" />
+    <Compile Include="SupporterGroup.cs" />
     <Compile Include="Team.cs" />
   </ItemGroup>
   <ItemGroup>

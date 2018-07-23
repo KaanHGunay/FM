@@ -15,5 +15,6 @@ namespace DataBase
         public ICollection<Footballer> Footballers { get; set; }
         [Required]
         public Manager Manager { get; set; }
+        public ICollection<SupporterGroup> SupporterGroups { get; set; }
     }
 }
