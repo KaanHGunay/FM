@@ -70,6 +70,10 @@
     <Compile Include="Migrations\201807231833321_addingFootballersAndManagersTables.Designer.cs">
       <DependentUpon>201807231833321_addingFootballersAndManagersTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807231850293_addingPositionsAndSupporterGroupsTables.cs" />
+    <Compile Include="Migrations\201807231850293_addingPositionsAndSupporterGroupsTables.Designer.cs">
+      <DependentUpon>201807231850293_addingPositionsAndSupporterGroupsTables.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Position.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -93,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807231833321_addingFootballersAndManagersTables.resx">
       <DependentUpon>201807231833321_addingFootballersAndManagersTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807231850293_addingPositionsAndSupporterGroupsTables.resx">
+      <DependentUpon>201807231850293_addingPositionsAndSupporterGroupsTables.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
